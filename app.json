@@ -5,8 +5,24 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#517ba3",
+    "navigationBarTitleText": "掌上苏院",
+    "navigationBarTextStyle":"white",
+    "navigationStyle":"default"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#517ba3",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页1"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
   }
 }
